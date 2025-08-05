@@ -1,12 +1,77 @@
-# React + Vite
+📽️ Movie Project
+A React-based movie web application that allows users to search, explore, and favorite movies using The Movie Database (TMDb) API.
+<img width="1802" height="846" alt="Screenshot 2025-08-05 153333" src="https://github.com/user-attachments/assets/a2313549-5ab1-44f0-8d42-ecbced7b5aef" />
+<img width="1805" height="837" alt="Screenshot 2025-08-05 153354" src="https://github.com/user-attachments/assets/9ad63d7a-7b1b-4a75-b457-b09d19c07301" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+🔍 Search Movies by title
 
-Currently, two official plugins are available:
+🎬 View Popular Movies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+❤️ Favorite Button with click interaction
 
-## Expanding the ESLint configuration
+🎨 Clean and responsive UI using React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌐 Fetch data using TMDb API
+
+📁 Folder Structure
+Movie-Project/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   └── MovieCard.js
+│   ├── css/
+│   │   └── MovieCard.css
+│   ├── services/
+│   │   └── api.js
+│   ├── App.js
+│   ├── Home.js
+│   └── index.js
+├── .gitignore
+├── package.json
+└── README.md
+
+🛠️ Tech Stack
+Frontend: React.js
+
+Styling: CSS
+
+API: TMDb API
+
+🔐 Environment Variables:
+Create a .env file in the root and add your TMDb API key:
+```bash
+REACT_APP_TMDB_API_KEY=your_tmdb_api_key_here
+```
+Then in your API file (api.js), access it via:
+```bash
+const API_KEY = process.env.REACT_APP_TMDB_API_KEY;
+
+```
+
+🔧 Setup Instructions
+```bash
+# Clone the repo
+git clone https://github.com/murtuzamaaz/Movie-Proejct.git
+cd Movie-Proejct
+
+# Install dependencies
+npm install
+
+# Run the app
+npm start
+```
+
+📌 TODO / Future Enhancements
+✅ Show popular movies
+
+✅ Add search functionality
+
+🔲 Add genres and filters
+
+🔲 Add user authentication for personalized favorites
+
+🔲 Deploy to GitHub Pages or Netlify
+
+
