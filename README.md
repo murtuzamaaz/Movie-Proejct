@@ -15,6 +15,7 @@ A React-based movie web application that allows users to search, explore, and fa
 🌐 Fetch data using TMDb API
 
 📁 Folder Structure
+```
 Movie-Project/
 ├── public/
 │ └── index.html
@@ -31,6 +32,7 @@ Movie-Project/
 ├── .gitignore
 ├── package.json
 └── README.md
+```
 
 🛠️ Tech Stack
 Frontend: React.js
