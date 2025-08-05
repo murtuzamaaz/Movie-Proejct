@@ -17,17 +17,17 @@ A React-based movie web application that allows users to search, explore, and fa
 📁 Folder Structure
 Movie-Project/
 ├── public/
-│   └── index.html
+│ └── index.html
 ├── src/
-│   ├── components/
-│   │   └── MovieCard.js
-│   ├── css/
-│   │   └── MovieCard.css
-│   ├── services/
-│   │   └── api.js
-│   ├── App.js
-│   ├── Home.js
-│   └── index.js
+│ ├── components/
+│ │ └── MovieCard.js
+│ ├── css/
+│ │ └── MovieCard.css
+│ ├── services/
+│ │ └── api.js
+│ ├── App.js
+│ ├── Home.js
+│ └── index.js
 ├── .gitignore
 ├── package.json
 └── README.md
